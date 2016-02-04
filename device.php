@@ -106,6 +106,7 @@ $devices_info = array(
     array('model' => 'm7', 'name' => 'One (GSM)', 'brand' => 'HTC'),
     array('model' => 'm7spr', 'name' => 'One (Sprint)', 'brand' => 'HTC'),
     array('model' => 'm7vzw', 'name' => 'One (Verizon)', 'brand' => 'HTC'),
+    array('model' => 'm7wlj', 'name' => 'One (Japan)', 'brand' => 'HTC'),
     array('model' => 'm8', 'name' => 'One 2014', 'brand' => 'HTC'),
     array('model' => 'm8d', 'name' => 'One 2014 Dual SIM', 'brand' => 'HTC'),
     array('model' => 'maguro', 'name' => 'Galaxy Nexus (GSM)', 'brand' => 'Google'),
@@ -496,6 +497,12 @@ $hardware_info = array(
                      'rom' => '16GB',
                      'battery' => '3100 mAh',
                      'display' => '5.2 inch, 1920x1080 pixel(424ppi)',
+                     'cpuarch' => 'Arm'),
+    'm7wlj' => array('cpu' => 'Qualcomm® Snapdragon™ 600',
+                     'ram' => '2GB',
+                     'rom' => '32GB',
+                     'battery' => '2300 mAh',
+                     'display' => '4.7 inch, 1920x1080 pixel(469ppi)',
                      'cpuarch' => 'Arm'),
 );
 
